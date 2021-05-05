@@ -1,0 +1,62 @@
+//COLORS
+$p_color: #F8B195;  
+$s_color: #F67280;
+$t_color: #C06C84;
+
+
+//fonts
+$main-font: 'Spartan', sans-serif;
+
+
+@mixin center-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin center-top-column {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+@mixin center-space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin center-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@mixin center-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@mixin center-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@mixin center-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+

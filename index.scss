@@ -1,0 +1,19 @@
+@import "./variables/variables";
+@import "./text-editor-section/text-editor-section";
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    @include center-column();
+    position: relative;
+}

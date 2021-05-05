@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <meta name="author" content="Bartłomiej Mach">
+    <link rel="stylesheet" href="index.css">
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/786fc2d0ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="text-editor-section">
+        <h1 class="page-name">Simple Text Editor</h1>
+        <div class="button-wrapper">
+            <button class="button--tool button--tool-color" type="button" data-command="bold">
+                <i class="fas fa-bold"></i>
+            </button>
+
+            <button class="button--tool button--tool-color" type="button" data-command="italic">
+                <i class="fas fa-italic"></i>
+            </button>
+
+            <button class="button--tool button--tool-color-onclick" type="button" data-command="insertUnorderedList">
+                <i class="fas fa-list-ul"></i>
+            </button>
+
+            <a href="" class="button--export">Export</a>
+           
+            <input type="file" class="button--import">
+            
+            
+        </div>
+        <div class="text-container" type="file" id="message" name="message" contenteditable="true"> Write something... </div>
+    </main>
+
+    <!-- <input type="file">
+            <textarea cols="30" rows="20" 
+                      placeholder="text will appear here">
+            </textarea> -->
+
+
+    <!-- JavaScript Files -->
+    <script src="index.js"></script>
+</body>
+</html>
