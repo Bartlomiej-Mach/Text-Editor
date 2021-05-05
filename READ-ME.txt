@@ -1,0 +1,14 @@
+Welcome dear recruiter,
+
+I finished my recruitment task,
+1. I created a text editor with 3 tools, 
+    - bold
+    - italic
+    - point list
+   Every tool working corectly. 
+
+2. I created an two buttons Export and Import,
+    - Export is working corectly, the text from text container can be exported with file.json
+    - Import not working correctly as I wanted,
+      problem of this button is that it can import only *.txt files,
+      unfortunately I couldn't find solution of this problem.
